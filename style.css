@@ -1,0 +1,70 @@
+body{
+display: grid;
+justify-content: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+.game-container{
+    width: 300px;
+    min-height: fit-content;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 1px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+.text-container{
+    text-align: center;
+    display: grid;
+}
+.gameTitle{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.result-label{
+    margin-bottom: -10px;
+    font-weight: 500;
+}
+.game-move-view{
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+
+
+.btn-container{
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.game-btn{
+    padding: 0;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: #1e3f56;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.game-btn:hover{
+    transform: rotate(50deg);
+}
+.game-btn:focus{
+    border: 2px solid #0095ff;
+}
+.game-btn--image{
+    width: 100%;
+    display: block;
+}

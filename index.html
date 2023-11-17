@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="text-container">
+            <label class="gameTitle">ROCK PAPER SCISSOR GAME</label>
+    
+            <label class="result-label">HUMAN PLAYER</label>
+            <input 
+            type="text" 
+            id = "playerMoveDisplay"
+            placeholder="" 
+            class="game-move-view"
+            readonly>
+
+            <label class="result-label">COMPUTER PLAYER</label>
+            <input 
+            type="text" 
+            id = "compMoveDisplay"
+            placeholder="" 
+            class="game-move-view"
+            readonly>
+    
+            <input 
+            type="text" 
+            id = "matchResult"
+            placeholder="RESULT" 
+            class="game-move-view"
+            readonly>
+    
+        </div>
+    
+        <div class="btn-container">
+            <button 
+            id="myRock" 
+            class="game-btn">
+                <img src="image/rock.png" 
+                class="game-btn--image">
+            </button>
+
+            <button 
+            id="myPaper" 
+            class="game-btn">
+                <img src="image/paper.png" 
+                class="game-btn--image">
+            </button>
+
+            <button 
+            id="myScissor" 
+            class="game-btn">
+                <img src="image/scissor.png" 
+                class="game-btn--image">
+            </button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
